@@ -1,0 +1,83 @@
+#mywork {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header {
+    background-color: #fff;
+    position: relative;
+    top: -41px;
+    left: -41px;
+    /* width: 155%; */
+    /* min-width: 88%; */
+    display: flex;
+    justify-content: center;
+    width: 105%;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 900;
+    color: #000;
+}
+
+p {
+    color: #000;
+    font-size: 28px;
+}
+
+
+/*.=====>>>>>Burger>>>>>>>====*/
+
+body {
+    height: calc(100vh - 40px);
+    margin: 40px;
+    /* background: #212121; */
+}
+
+.burgerfill {
+    padding-left: 299px;
+}
+
+.burger {
+    margin: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 200px;
+    bottom: 247px;
+}
+
+.burger .bun {
+    height: 80px;
+    width: 180px;
+    border-radius: 100px 100px 0 0;
+    background: #f4a000;
+}
+
+.burger .bun.bottom {
+    border-radius: 0 0 100px 100px;
+}
+
+.burger .cosmic-fill {
+    filter: contrast(200%);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: url(/svg/fill-01_vgkaj7.svg);
+    background-repeat: round;
+}
+
+.other {
+    padding-top: 74px;
+}
+
+
+/* >>>>>>>>>>>>>>>>====Emoji>>>>>>>>>>>>>>>>>>>==== */
